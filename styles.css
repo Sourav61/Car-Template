@@ -87,34 +87,25 @@
 
 /* Responsive section starts */
 
-@media screen and (min-width: 300px) and (max-width: 759px){
+@media screen and (min-width: 300px) and (max-width: 700px){
     .carImage {
         width: 100%;
     }
 
-    .image{
+    /* .image{
         height: 110rem !important;
+    } */
+
+    .gif1{ 
+        height: 90px;
     }
 }
 
-@media screen and (min-width: 760px) and (max-width: 767px){
+@media screen and (min-width: 767px) and (max-width: 1023px){
     .carImage {
-        width: 100%;
-    }    
-    
-    .image{
-        height: 110rem !important;
-    }    
-}    
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .carImage {
-        width: 100%;
+        width: 101%;
     }
 
-    .image{
-        height: 843px;
-    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1330px){
