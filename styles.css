@@ -52,12 +52,38 @@
 /* Common to all gifs */
 
 .gif1 {
-    height: 150px;
+    height: 200px;
+    width: 260px;
+}
+
+.tooltip {
+    position: relative !important;
+    display: inline-block;
+    opacity: 1 !important;
+}
+
+.tooltip .toolTipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    top: 8rem;
+    left: 7rem;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;   
+}
+
+.tooltip:hover .toolTipText {
+  visibility: visible;
 }
 
 /* Main image in the background */
 
-.contact {
+.main {
     z-index: 1;
     position: absolute;
     bottom: 2px;
