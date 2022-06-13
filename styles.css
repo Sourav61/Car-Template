@@ -1,3 +1,11 @@
+/* =======================              Main Page Styling Section                 ================================ */
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
 /* upperdiv containing first 2 gifs */
 
 .upperDiv {
@@ -108,6 +116,11 @@
 } */
 
 
+/* =======================              Contact Us Page Styling Section                 ================================ */
+
+.contactUs{
+    background-color: #7eb6ff;
+}
 
 /* ================================================================================= */
 
