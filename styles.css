@@ -122,6 +122,25 @@
     background-color: #7eb6ff;
 }
 
+.iconLine {
+    position: relative;
+}
+
+/* .address {
+
+} */
+
+.mailDiv {
+    margin-top: 8rem;
+}
+
+.mailBox { 
+    height: 30rem;
+    width: 30rem;
+    margin-right: 20rem;
+}
+
+
 /* ================================================================================= */
 
 /* Responsive section starts */
