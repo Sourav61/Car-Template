@@ -1,44 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <link
-			href="https://fonts.googleapis.com/css?family=Press+Start+2P"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-		/>
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
-			integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
-			integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-			crossorigin="anonymous"
-		></script>
-    </head>
-    <body class="contactUs">
-        <div class="container">
-            <h1 class="text-center">Have Some Questions?</h1>
-			<h3 class="text-center address"><span><i class="fa fa-globe" aria-hidden="true"></i></span> Chandigarh, India</h3>
-			<div class="mailDiv d-flex flex-row text-center">
-				<img src="test.jpg" class="mailBox" alt="Mail Box Image">
-				<button type="submit">Send Message</button>
-			</div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="height: 100%">
+    <div id="browser">
+      <div id="browser-bar">
+        <div class="circles"></div>
+        <!-- <div class="circles"></div>
+        <div class="circles"></div> -->
+        <p style="margin-bottom: 0px;">Contact Us</p>
+        <span class="arrow entypo-resize-full"></span>
+      </div>
+      <div id="content">
+        <div id="left">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109740.86108784034!2d76.69348820329914!3d30.735210199731238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1658137112078!5m2!1sen!2sin"
+            width="100%"
+            height="618px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <!-- <div id="map">
+            <p>Where To Find Us</p>
+            <div class="map-locator">
+              <div class="tooltip">
+                <ul>
+                  <li>
+                    <span class="entypo-location"></span>
+                    <span class="selectedLocation">Israel</span>
+                  </li>
+                  <li>
+                    <span class="entypo-mail"></span>
+                    <a href="mailto:sourav61pahwa@gmail.com">sourav61pahwa@gmail.com</a>
+                  </li>
+                  <li>
+                    <span class="entypo-phone"></span>
+                    (+972 2) 629 06 32
+				  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="zoom"></div>
+          </div>
+        	<ul id="location-bar">
+            <li>
+              <a
+                class="location"
+                data-location="Israel"
+                href="https://f.cl.ly/items/452R3S1440221Z3m372j/israel.png"
+                >Israel</a
+              >
+            </li>
+            <li>
+              <a
+                class="location"
+                data-location="USA"
+                href="https://f.cl.ly/items/0n0o01382l0p1u271D43/usa.png"
+                >USA</a
+              >
+            </li>
+            <li>
+              <a
+                class="location"
+                data-location="The Netherlands"
+                href="https://f.cl.ly/items/0g0l283X3h1T3H270V0A/netherlands.png"
+                >The Netherlands</a
+              >
+            </li>
+            <li>
+              <a
+                class="location"
+                data-location="Singapore"
+                href="https://f.cl.ly/items/1i2Y262H020X141R3h0k/singapore.png"
+                >Singapore</a
+              >
+            </li>
+          </ul> -->
         </div>
-    </body>
+        <div id="right" class="contact-form">
+          <h3 class="text-center">Connect</h3>
+          <!-- <p class="other entypo-mail">
+            <a href="mailto:sourav61pahwa@gmail.com">sourav61pahwa@gmail.com</a>
+          </p> -->
+          <div id="social" class="text-center">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-envelope"></a>
+          </div>
+          <form class="text-center">
+            <h3>Send Message</h3>
+            <input placeholder="Email" type="email" />
+            <input placeholder="Subject" type="text" />
+            <textarea placeholder="Message" rows="4"></textarea>
+            <input placeholder="Send" type="submit" class="submit-form" />
+          </form>
+          <!-- <p>other way</p>
+          <p class="other entypo-mail">
+            <a href="#">sourav61pahwa@gmail.com</a>
+          </p> -->
+          <!-- <p class="other entypo-phone">(+972 2) 629 06 32</p> -->
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js"
+    />
+    <script src="index.js"></script>
+  </body>
 </html>
